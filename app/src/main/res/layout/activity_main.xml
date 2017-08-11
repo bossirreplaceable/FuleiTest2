@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fulei.fuleitest.ui.MainActivity">
+
+    <include
+        android:id="@+id/back_main"
+        layout="@layout/back_main"></include>
+
+    <Button
+        android:layout_below="@+id/back_main"
+        android:id="@+id/main_second"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/selector_button"
+        android:text="二代货道测试"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/main_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/main_second"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_button"
+        android:text="按钮测试"
+        android:textColor="#fff" />
+
+
+</RelativeLayout>
